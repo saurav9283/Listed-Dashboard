@@ -1,0 +1,41 @@
+.widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100px;
+  min-width: 200px;
+  background-color: white;
+}
+.left1, .right1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cnt {
+  color: black;
+  font-size: 28px;
+  font-weight:bold;
+  margin-bottom: 5px;
+  margin-top: 17px;
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+}
+
+.icon {
+  color: black;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+
+
