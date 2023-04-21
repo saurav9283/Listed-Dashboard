@@ -37,9 +37,8 @@
     margin-top: -15px;
 }
 
-/* .btn1  { */
-    /* background-image: url(); */
-    /* height: 30px;
+.btn1  {
+    height: 35px;
     width: 200px;
     display: inline-block;
     border-radius: 15px;
@@ -48,20 +47,15 @@
     border: none;
     cursor: pointer;
 
-} */
+} 
 .btn2{
-    height: 40px;
+    height: 35px;
     width: 200px;
-    cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
     background: #FFFFFF;
     margin-right: 30px;
     border: none;
     cursor: pointer;
-    position: absolute;
-    display: inline-block;
-    letter-spacing: 0.5px;
-    margin: -40px 200px;
 }
 .btn2 img{
     margin-top: 9px;
@@ -69,7 +63,7 @@
 }
 .btn2 p{
     font-size: 14px;
-    margin-top: -20px;
+    margin-top: -25px;
     cursor: pointer;
     margin-left: 10px;
 }
@@ -167,6 +161,23 @@
     color: black;
 }
 
+.ct{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    padding: 0;
+    
+}
+.ifnotaccount{
+    margin-top: 304px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.ifnotaccount span{
+    color: blue;
+    cursor: pointer;
+    font-size: 13px;
+}
+
 @media  (min-width: 800px) and  (max-width:1000px){
     
     .left{
@@ -233,22 +244,23 @@
     }
     
     .btn2 {
-        margin: -35px 200px;
-        height: 37px;
-        width: 170px;
-        display: inline-block;
-        border-radius: 5px;
-        background: #FFFFFF;
-        border: none;
-        /* cursor: pointer; */
+    height: 35px;
+    width: 180px;
+    margin-left: -10px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
     }
     .btn2 img{
         height: 18px;
         width: 18px;
+        margin-top: -5px;
         margin-right: 115px;
     }
     .btn2 p{
-        font-size: 12px;
+        font-size: 13px;
         margin-left: 25px;
         cursor: pointer;
     }
@@ -320,13 +332,20 @@
     }
     
     .btn2 {
-        margin: -35px 200px;
-        height: 37px;
-        width: 170px;
-        display: inline-block;
-        border-radius: 5px;
-        background: #FFFFFF;
-        border: none;
+    height: 35px;
+    width: 180px;
+    margin-left: -10px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
+    }
+    .ct{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        padding: 0;
+        
     }
     .btn2 img{
         height: 18px;
@@ -412,13 +431,14 @@
     }
     
     .btn2 {
-        margin: -35px 200px;
-        height: 38px;
-        width: 180px;
-        display: inline-block;
-        border-radius: 5px;
-        background: #FFFFFF;
-        border: none;
+    height: 35px;
+    width: 180px;
+    margin-left: -10px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
     }
     .btn2 img{
         height: 18px;
@@ -430,4 +450,25 @@
         margin-left: 20px;
         cursor: pointer;
     }
-} 
+    .ifnotaccount{
+        margin-top: 304px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .ifnotaccount span{
+        color: blue;
+        cursor: pointer;
+        font-size: 13px;
+    }
+   .ifnotaccount{
+       margin-top: 285px;
+       margin-left: 10px;
+       font-size: 13px;
+    }
+   .ifnotaccount span{
+        color: blue;
+        cursor: pointer;
+        font-size: 13px;
+    }
+    
+}
