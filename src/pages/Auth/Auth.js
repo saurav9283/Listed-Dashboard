@@ -16,9 +16,9 @@ const Auth=()=>
         })
     }
     
-    // function handelClick(){
-    //     navigate("home/")
-    // }
+    function handelClick(){
+        navigate("home/")
+    }
     return(
         <> 
         <div className="all">
@@ -38,14 +38,14 @@ const Auth=()=>
                     <button className='btn2'><img src={i} className='apple' alt=""/><p>Sign in with Apple</p></button></div>
                     
                 </div>
-                <div className='form'>
+                <div className='form' onSubmit={handelClick}>
                     <form>
                     <p>Enter Email</p>
                     <input type="email" id='email' required placeholder='xyz@gmail.com'/>
                     <p>Password</p>
                     <input type="password" required id='password'/>
                     <a  href='/' className='forgot'>Forgot password?</a>
-                    <button className='submit' type="submit">Sign In</button>
+                    <button className='submit' type="submit" >Sign In</button>
                     </form>
                 </div>
                 <p className='ifnotaccount'>Don't have an account?<span>Register here</span></p>
